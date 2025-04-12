@@ -3,7 +3,8 @@ import plotly.express as px
 import dash
 from dash import dcc, html
 
-df = pd.read_csv("microplastics_daily_2.5deg_2019.csv")
+file_url = 'https://drive.google.com/file/d/1HEf5grekNcE8b1FzMmjoZ8faonWg361A/view?usp=sharing'
+df = pd.read_csv(file_url)
 df["date_label"] = pd.to_datetime(df["date"]).dt.strftime("%b %d\n%Y")  # e.g., Feb 20\n2019
 
 # Custom color scale
