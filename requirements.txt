@@ -2,3 +2,4 @@ dash
 voila
 plotly
 pandas
+ipywidgets
