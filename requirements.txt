@@ -1,5 +1,4 @@
-dash
+pandas
 voila
 plotly
-pandas
 ipywidgets
