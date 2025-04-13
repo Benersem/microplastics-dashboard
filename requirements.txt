@@ -1,4 +1,6 @@
-pandas
 voila
 plotly
+dash
 ipywidgets
+numpy
+pandas
